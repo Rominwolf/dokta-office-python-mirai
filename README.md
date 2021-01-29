@@ -13,7 +13,7 @@
  
 ### 安装并使用
  1. 下载 dokta-office-mirai 并将其解压到任意文件夹下内；
- 2. 安装 Python3.X 和其 websocket-client 包；
+ 2. 安装 Python3.X 和其 websocket-client、configparser、json、requests 库；
  3. 安装 Mirai-http-api 应用并进行配置；
  4. 修改 DoVars.py 文件中的 configFolder 变量，指向你 Mirai 程序中 /config/DoktaOffice/ 文件夹（可能需要创建文件夹）；
  5. 修改 MiraiHttpApi.py 文件中的 host、authKey 和 qq 变量，分别为你的 mirai-http-api 设定的地址、authKey 和你机器人的 QQ 号；
